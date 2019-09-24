@@ -1342,6 +1342,7 @@ strong {
   color: #fff;
   line-height: 30px;
   text-decoration: none;
+  text-transform: none;
   cursor: pointer;
 }
 
@@ -1526,7 +1527,7 @@ strong {
   .body-faq {
     overflow: hidden;
     padding-right: 30px;
-    padding-left: 0px;
+    padding-left: 30px;
     background-color: #000;
   }
   .text-block-5 {
@@ -1636,6 +1637,9 @@ strong {
   .div-block-22 {
     overflow: hidden;
     height: 20vh;
+  }
+  .div-block-23 {
+    background-image: none;
   }
 }
 
@@ -2021,6 +2025,10 @@ strong {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+  .rich-text-block-2 {
+    padding-right: 23px;
+    padding-left: 45px;
+  }
   .priv-privacy-policy {
     margin-left: -33px;
     padding-top: 0px;
@@ -2073,7 +2081,7 @@ strong {
     align-items: flex-start;
   }
   .line-break {
-    background-color: #161616;
+    background-color: #000;
     color: transparent;
   }
   .faq-col-right {
@@ -2199,6 +2207,9 @@ strong {
     padding-left: 18px;
   }
   .body-4 {
+    background-image: none;
+  }
+  .div-block-23 {
     background-image: none;
   }
 }
