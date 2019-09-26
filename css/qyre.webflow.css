@@ -761,6 +761,7 @@ strong {
 }
 
 .div-block-17 {
+  overflow: visible;
   background-color: #000;
 }
 
@@ -1434,7 +1435,7 @@ strong {
     display: flex;
   }
   .body {
-    overflow: hidden;
+    overflow: scroll;
     padding-left: 0px;
   }
   .heading {
@@ -1724,7 +1725,7 @@ strong {
     padding: 24px 35px 24px 22px;
   }
   .body {
-    overflow: visible;
+    overflow: scroll;
   }
   .heading {
     position: static;
@@ -1991,7 +1992,7 @@ strong {
     grid-template-columns: 3fr 1fr 0.75fr 0.75fr;
   }
   .body-faq {
-    overflow: visible;
+    overflow: scroll;
     margin-right: -4px;
     margin-left: 0px;
     padding-right: 0px;
@@ -2040,12 +2041,16 @@ strong {
     padding-left: 0px;
   }
   .faq-mainbg {
+    overflow: scroll;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 0px;
     padding-left: 0px;
     background-color: transparent;
     background-image: repeating-linear-gradient(0deg, hsla(0, 0%, 100%, 0.09) 100%, hsla(0, 0%, 100%, 0));
+  }
+  .div-block-17 {
+    overflow: scroll;
   }
   .priv-terms-of-use {
     padding-top: 0px;
@@ -2215,6 +2220,7 @@ strong {
     background-image: none;
   }
   .div-block-23 {
+    overflow: scroll;
     background-image: none;
   }
 }
