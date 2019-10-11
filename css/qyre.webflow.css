@@ -36,7 +36,11 @@ p {
   margin-bottom: 10px;
   padding-top: 4px;
   padding-left: 50px;
+  font-style: normal;
+  text-align: left;
   letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 a {
@@ -55,6 +59,15 @@ li {
 strong {
   font-weight: 700;
   text-decoration: none;
+}
+
+em {
+  overflow: visible;
+  font-size: 0px;
+  line-height: 0px;
+  font-style: normal;
+  text-align: center;
+  text-transform: none;
 }
 
 .text {
@@ -661,7 +674,9 @@ strong {
   margin-right: 180px;
   margin-left: 180px;
   padding-top: 0px;
+  padding-right: 0px;
   border: 1px none #000;
+  font-family: Matter, sans-serif;
   color: #fff;
   text-align: justify;
 }
