@@ -553,7 +553,7 @@ em {
   color: #fff;
   font-size: 18px;
   line-height: 21px;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .heading-2 {
