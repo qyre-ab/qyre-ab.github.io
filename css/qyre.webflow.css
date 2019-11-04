@@ -2301,6 +2301,7 @@ em {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    border-width: 0px;
   }
   .image-7 {
     display: block;
