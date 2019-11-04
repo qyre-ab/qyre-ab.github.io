@@ -1968,6 +1968,9 @@ em {
     -ms-flex: 1;
     flex: 1;
   }
+  .image-4 {
+    min-width: 0px;
+  }
   .image-5 {
     position: relative;
     right: auto;
@@ -2286,6 +2289,13 @@ em {
   .div-block-23 {
     overflow: scroll;
     background-image: none;
+  }
+  .image-6 {
+    display: block;
+    overflow: visible;
+  }
+  .image-7 {
+    display: block;
   }
 }
 
