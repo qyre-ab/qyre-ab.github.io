@@ -1960,16 +1960,34 @@ em {
     padding-left: 0px;
   }
   .column-3 {
+    position: static;
+    display: block;
+    overflow: visible;
+    margin-right: auto;
     margin-bottom: 40px;
+    margin-left: auto;
     padding-right: 20px;
     padding-left: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    border-radius: 0px;
+  }
+  .image-4 {
+    position: static;
   }
   .image-5 {
     position: relative;
@@ -2081,6 +2099,11 @@ em {
     flex-wrap: nowrap;
   }
   .columns-linkto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -2094,6 +2117,10 @@ em {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -2291,13 +2318,20 @@ em {
     background-image: none;
   }
   .image-6 {
+    position: static;
     display: block;
     overflow: visible;
     min-width: 0px;
+    background-color: rgba(22, 22, 22, 0);
   }
   .image-7 {
+    position: static;
     display: block;
     min-width: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 }
 
